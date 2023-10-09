@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="16"
+   viewBox="0 0 16 16"
+   width="16"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="icon.svg"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   inkscape:export-filename="icon.png"
+   inkscape:export-xdpi="192"
+   inkscape:export-ydpi="192"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="33.776359"
+     inkscape:cx="8.2750186"
+     inkscape:cy="8.8967552"
+     inkscape:window-width="1440"
+     inkscape:window-height="872"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1" />
+  <g
+     id="g3"
+     transform="matrix(0.18528583,0,0,0.18528583,-1.2897559,-1.3602709)"
+     style="fill:#8da5f3;fill-opacity:1">
+    <polygon
+       fill="#000000"
+       points="90.667,30.237 50.189,10 9.716,30.237 50.189,50.478 "
+       id="polygon1"
+       style="fill:#8da5f3;fill-opacity:1" />
+    <polygon
+       fill="#000000"
+       points="50.189,57.909 25.215,45.415 9.716,50.478 50.189,70.714 90.667,50.478 76.437,45.108 "
+       id="polygon2"
+       style="fill:#8da5f3;fill-opacity:1" />
+    <polygon
+       fill="#000000"
+       points="50.189,78.145 25.215,65.656 9.716,70.714 50.189,90.956 90.667,70.714 76.437,65.34 "
+       id="polygon3"
+       style="fill:#8da5f3;fill-opacity:1" />
+  </g>
+</svg>
