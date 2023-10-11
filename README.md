@@ -56,4 +56,4 @@ A demo scene is included in this repo which includes an example stacked sprite f
 
 # License
 
-Add license here.
+This project is [MIT](LICENSE.md) licensed.
