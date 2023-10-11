@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Frog-Sheet.png-45ec4bbde824960a1e7863b9fad0f053.stex"
+path="res://.import/pine_tree.png-640a115ad5d1ddfee3f49dbc8981a8e0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://example/Frog-Sheet.png"
-dest_files=[ "res://.import/Frog-Sheet.png-45ec4bbde824960a1e7863b9fad0f053.stex" ]
+source_file="res://demo/pine_tree.png"
+dest_files=[ "res://.import/pine_tree.png-640a115ad5d1ddfee3f49dbc8981a8e0.stex" ]
 
 [params]
 
