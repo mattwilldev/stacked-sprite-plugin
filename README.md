@@ -9,7 +9,9 @@
 
 *Stacked Sprite*: a stack of sprites layered on top of each other creating a fake  3-dimensional object.
 
-![Stacked Sprite Demo](stacked_sprite_demo.gif)
+<p align="center">
+  <img src="stacked_sprite_demo.gif">
+</p>
 
 **Table of Contents**
  - [Installation](#installation)
