@@ -16,16 +16,21 @@
 **Table of Contents**
  - [Installation](#installation)
  - [Usage](#usage)
+    - [Prerequisites](#prerequisites)
+    - [Add StackedSprite node](#add-stackedsprite-node)
+    - [Demo Scene](#demo-scene)
+- [Credits](#credits)
+- [License](#license)
 
 # Installation
 
-Copy the contents of `addons/stacked_sprit`e into the same folder in your project, and activate it in your project settings.
+Copy the contents of `addons/stacked_sprite` into the same folder in your project, and activate it in your project settings.
 
 Once activated the `StackedSprite` node should be accessible under the existing nodes.
 
 # Usage
 
-## Pre-requisites
+## Prerequisites
 
 Create a horizontal sprite sheet that represents your stacked sprite. This sprite sheet should consist of multiple frames with each frame representing one layer in the stacked sprite, with the bottom-most sprite as the first frame.
 
@@ -35,16 +40,21 @@ This can be achieved with a:
 
 - **Voxel editor** like [Goxel](https://goxel.xyz/) or [MagicaVoxel](https://ephtracy.github.io/). Both these tools have an export as png slices option that exports the voxel model into the expected format.
 
-## Add a StackedSprite
+## Add StackedSprite node
 
-Add a `StackedSprite` node to your scene. This node has a few properties:
+Add a `StackedSprite` node to your scene. 
+![Add StackedSprite node](stacked_sprite_node.png)
 
-- **Texture**: The `.png` sprite sheet representing the stacked sprite.
-- **HFrames**: The Number of horizontal frames in the spreet sheet.
-- **Show Sprites**: A toggle to show the stacked sprite in the editor.
-- **Rotate Sprites**: A toggle to rotate the stacked sprite in the editor.
-- **Stack Offset**: The y-position offset between each frame of the stacked sprite. Use a value greater than `1` for a more 'exploded' stacked sprite.
-- **Rotation Speed**: Speed that the stacked sprite rotates when `Rotate Sprites` and `Show Sprites` is enabled.
+This node has a few properties:
+
+| **Property**   | **Description**                                                                                                        |
+|----------------|------------------------------------------------------------------------------------------------------------------------|
+| Texture        | The `.png` sprite sheet file representing the stacked sprite.                                                          |
+| HFrames        | The Number of horizontal frames in the spreet sheet.                                                                   |
+| Show Sprites   | A toggle to show the stacked sprite in the editor.                                                                     |
+| Rotate Sprites | A toggle to rotate the stacked sprite in the editor.                                                                   |
+| Stack Offset   | The y-position offset between each frame of the stacked sprite. Use a value greater than 1 for a more 'exploded' look. |
+| Rotation Speed | Speed at which the stacked sprite rotates when `Rotate Sprites` and `Show Sprites` is enabled.                         |
 
 ## Demo Scene
 
