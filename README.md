@@ -16,9 +16,9 @@
 **Table of Contents**
  - [Installation](#installation)
  - [Usage](#usage)
+    - [Quickstart](#quickstart)
     - [Prerequisites](#prerequisites)
     - [Add StackedSprite node](#add-stackedsprite-node)
-    - [Demo Scene](#demo-scene)
 - [Credits](#credits)
 - [License](#license)
 
@@ -30,6 +30,10 @@ Once activated the `StackedSprite` node should be accessible under the existing 
 
 # Usage
 
+## Quickstart
+
+A demo scene is included in this repo which includes an example stacked sprite for reference.
+
 ## Prerequisites
 
 Create a horizontal sprite sheet that represents your stacked sprite. This sprite sheet should consist of multiple frames with each frame representing one layer in the stacked sprite, with the bottom-most sprite as the first frame.
@@ -39,6 +43,9 @@ This can be achieved with a:
 - **Pixel art editor** such as [Aseprite](https://www.aseprite.org/) using the [Stacked Sprite Visualizer Plugin](https://github.com/jontopielski/aseprite-stacked-sprite-visualizer)
 
 - **Voxel editor** like [Goxel](https://goxel.xyz/) or [MagicaVoxel](https://ephtracy.github.io/). Both these tools have an export as png slices option that exports the voxel model into the expected format.
+
+Or, use the example pine tree sprite sheet in this repo:
+[demo/pine_tree.png](demo/pine_tree.png)
 
 ## Add StackedSprite node
 
@@ -55,10 +62,6 @@ This node has a few properties:
 | Rotate Sprites | A toggle to rotate the stacked sprite in the editor.                                                                   |
 | Stack Offset   | The y-position offset between each frame of the stacked sprite. Use a value greater than 1 for a more 'exploded' look. |
 | Rotation Speed | Speed at which the stacked sprite rotates when `Rotate Sprites` and `Show Sprites` is enabled.                         |
-
-## Demo Scene
-
-A demo scene is included in this repo which includes an example stacked sprite for reference.
 
 # Credits
 
